@@ -38,7 +38,7 @@ press_arbitrary_keycode(MO(4), true);
 ```
 
 2. В файле `tmk_core/common/keyboard.h` в структуре `keypos_t`:
-```
+```diff
  typedef struct {
      uint8_t col;
      uint8_t row;
