@@ -5,6 +5,7 @@
 void press_arbitrary_keycode(uint16_t keycode, bool down) {
 	keyrecord_t record = {
 	  .event = {
+	    .type = KEY_EVENT,
 	    .key = {
 	      .col = 255,
 	      .row = 0,
